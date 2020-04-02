@@ -1,5 +1,4 @@
 FROM alpine
-MAINTAINER Robin Ostlund <me@robinostlund.name>
 
 # Install openvpn
 RUN apk --no-cache --no-progress upgrade && \
